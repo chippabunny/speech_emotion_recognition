@@ -1,9 +1,7 @@
 import tkinter as tk
-from tkinter import filedialog
 from tkinter import *
 from tensorflow.keras.models import model_from_json
 
-from PIL import Image,ImageTk
 import numpy as np
 
 import pandas as pd
