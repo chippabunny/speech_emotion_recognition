@@ -175,7 +175,7 @@ def record_detect():
     record()
     label.config(text="   detecting  ")
     top.update_idletasks()
-    features=get_features('audioav')
+    features=get_features('audio.wav')
     pred=model.predict(features)
     emotion=find_emotion(pred)
     label.config(text=emotion)
